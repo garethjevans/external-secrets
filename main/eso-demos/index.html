@@ -181,6 +181,120 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        Introduction
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../api/components/" class="md-tabs__link">
+        API
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../guides/introduction/" class="md-tabs__link">
+        Guides
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../provider/aws-secrets-manager/" class="md-tabs__link">
+        Provider
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../examples/gitops-using-fluxcd/" class="md-tabs__link">
+        Examples
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contributing/devguide/" class="md-tabs__link md-tabs__link--active">
+        Community
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -193,8 +307,10 @@
                   <div class="md-sidebar__inner">
                     
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="External Secrets Operator" class="md-nav__button md-logo" aria-label="External Secrets Operator" data-md-component="logo">
       
@@ -226,56 +342,64 @@
   
   
   
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        Introduction
-      </a>
-    </li>
-  
-
     
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" data-md-state="indeterminate" type="checkbox" id="__nav_1" checked>
       
       
       
-
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="..">Introduction</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../api-overview/" class="md-nav__link">
+      <a href="../introduction/overview/" class="md-nav__link">
         Overview
       </a>
     </li>
   
 
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3">
-          API Types
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="API Types" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          API Types
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+            
           
             
               
@@ -283,8 +407,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-externalsecret/" class="md-nav__link">
-        ExternalSecret
+      <a href="../introduction/getting-started/" class="md-nav__link">
+        Getting started
       </a>
     </li>
   
@@ -297,8 +421,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-secretstore/" class="md-nav__link">
-        SecretStore
+      <a href="../introduction/faq/" class="md-nav__link">
+        FAQ
       </a>
     </li>
   
@@ -311,8 +435,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-clustersecretstore/" class="md-nav__link">
-        ClusterSecretStore
+      <a href="../introduction/stability-support/" class="md-nav__link">
+        Stability and Support
       </a>
     </li>
   
@@ -325,8 +449,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-clusterexternalsecret/" class="md-nav__link">
-        ClusterExternalSecret
+      <a href="../introduction/deprecation-policy/" class="md-nav__link">
+        Deprecation Policy
       </a>
     </li>
   
@@ -350,20 +474,30 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_4">
-          Guides
+      
+        <label class="md-nav__link" for="__nav_2">
+          API
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Guides" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+      <nav class="md-nav" aria-label="API" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Guides
+          API
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -373,22 +507,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-introduction/" class="md-nav__link">
-        Introduction
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guides-getting-started/" class="md-nav__link">
-        Getting started
+      <a href="../api/components/" class="md-nav__link">
+        Components
       </a>
     </li>
   
@@ -404,18 +524,425 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_2_2" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_4_3">
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Core Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Core Resources" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Core Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/externalsecret/" class="md-nav__link">
+        ExternalSecret
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/secretstore/" class="md-nav__link">
+        SecretStore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/clustersecretstore/" class="md-nav__link">
+        ClusterSecretStore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/clusterexternalsecret/" class="md-nav__link">
+        ClusterExternalSecret
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/pushsecret/" class="md-nav__link">
+        PushSecret
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" data-md-state="indeterminate" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../api/generator/">Generators</a>
+          
+            <label for="__nav_2_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Generators" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Generators
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/acr/" class="md-nav__link">
+        Azure Container Registry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/ecr/" class="md-nav__link">
+        AWS Elastic Container Registry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/gcr/" class="md-nav__link">
+        Google Container Registry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/password/" class="md-nav__link">
+        Password
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/generator/fake/" class="md-nav__link">
+        Fake
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" data-md-state="indeterminate" type="checkbox" id="__nav_2_4" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Reference Docs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reference Docs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reference Docs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/spec/" class="md-nav__link">
+        API specification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/controller-options/" class="md-nav__link">
+        Controller Options
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/metrics/" class="md-nav__link">
+        Metrics
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Guides
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Guides" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Guides
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
           Advanced Templating
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Advanced Templating" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
+        <label class="md-nav__title" for="__nav_3_2">
           <span class="md-nav__icon md-icon"></span>
           Advanced Templating
         </label>
@@ -427,7 +954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-templating/" class="md-nav__link">
+      <a href="../guides/templating/" class="md-nav__link">
         v2
       </a>
     </li>
@@ -441,7 +968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-templating-v1/" class="md-nav__link">
+      <a href="../guides/templating-v1/" class="md-nav__link">
         v1
       </a>
     </li>
@@ -462,7 +989,21 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-all-keys-one-secret/" class="md-nav__link">
+      <a href="../guides/generator/" class="md-nav__link">
+        Generators
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guides/all-keys-one-secret/" class="md-nav__link">
         All keys, One secret
       </a>
     </li>
@@ -476,7 +1017,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-common-k8s-secret-types/" class="md-nav__link">
+      <a href="../guides/common-k8s-secret-types/" class="md-nav__link">
         Common K8S Secret Types
       </a>
     </li>
@@ -490,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-controller-class/" class="md-nav__link">
+      <a href="../guides/controller-class/" class="md-nav__link">
         Controller Classes
       </a>
     </li>
@@ -504,7 +1045,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-ownership-deletion-policy/" class="md-nav__link">
+      <a href="../guides/ownership-deletion-policy/" class="md-nav__link">
         Lifecycle: ownership & deletion
       </a>
     </li>
@@ -518,7 +1059,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-decoding-strategy/" class="md-nav__link">
+      <a href="../guides/decoding-strategy/" class="md-nav__link">
         Decoding Strategies
       </a>
     </li>
@@ -532,7 +1073,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-getallsecrets/" class="md-nav__link">
+      <a href="../guides/getallsecrets/" class="md-nav__link">
         Getting Multiple Secrets
       </a>
     </li>
@@ -546,7 +1087,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-multi-tenancy/" class="md-nav__link">
+      <a href="../guides/multi-tenancy/" class="md-nav__link">
         Multi Tenancy
       </a>
     </li>
@@ -560,8 +1101,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-metrics/" class="md-nav__link">
-        Metrics
+      <a href="../guides/datafrom-rewrite/" class="md-nav__link">
+        Rewriting Keys
       </a>
     </li>
   
@@ -574,7 +1115,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-v1beta1/" class="md-nav__link">
+      <a href="../guides/v1beta1/" class="md-nav__link">
         Upgrading to v1beta1
       </a>
     </li>
@@ -588,7 +1129,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides-using-latest-image/" class="md-nav__link">
+      <a href="../guides/using-latest-image/" class="md-nav__link">
         Using Latest Image
       </a>
     </li>
@@ -613,18 +1154,54 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_5">
+      
+        <label class="md-nav__link" for="__nav_4">
           Provider
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Provider" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           Provider
         </label>
@@ -635,35 +1212,9 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_1">
-          AWS
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="AWS" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_1">
-          <span class="md-nav__icon md-icon"></span>
-          AWS
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
-      <a href="../provider-aws-secrets-manager/" class="md-nav__link">
-        Secrets Manager
+      <a href="../provider/aws-secrets-manager/" class="md-nav__link">
+        AWS Secrets Manager
       </a>
     </li>
   
@@ -676,157 +1227,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-aws-parameter-store/" class="md-nav__link">
-        Parameter Store
+      <a href="../provider/aws-parameter-store/" class="md-nav__link">
+        AWS Parameter Store
       </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_2">
-          Azure
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Azure" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_2">
-          <span class="md-nav__icon md-icon"></span>
-          Azure
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../provider-azure-key-vault/" class="md-nav__link">
-        Key Vault
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_3">
-          Google
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Google" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_3">
-          <span class="md-nav__icon md-icon"></span>
-          Google
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../provider-google-secrets-manager/" class="md-nav__link">
-        Secret Manager
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_4">
-          IBM
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="IBM" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_4">
-          <span class="md-nav__icon md-icon"></span>
-          IBM
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../provider-ibm-secrets-manager/" class="md-nav__link">
-        Secrets Manager
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -838,7 +1241,49 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-akeyless/" class="md-nav__link">
+      <a href="../provider/azure-key-vault/" class="md-nav__link">
+        Azure Key Vault
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/google-secrets-manager/" class="md-nav__link">
+        Google Secret Manager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/ibm-secrets-manager/" class="md-nav__link">
+        IBM Secrets Manager
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../provider/akeyless/" class="md-nav__link">
         Akeyless
       </a>
     </li>
@@ -852,7 +1297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-hashicorp-vault/" class="md-nav__link">
+      <a href="../provider/hashicorp-vault/" class="md-nav__link">
         HashiCorp Vault
       </a>
     </li>
@@ -865,35 +1310,9 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_7">
-          Yandex
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Yandex" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_7">
-          <span class="md-nav__icon md-icon"></span>
-          Yandex
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
-      <a href="../provider-yandex-certificate-manager/" class="md-nav__link">
-        Certificate Manager
+      <a href="../provider/yandex-certificate-manager/" class="md-nav__link">
+        Yandex Certificate Manager
       </a>
     </li>
   
@@ -906,46 +1325,13 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-yandex-lockbox/" class="md-nav__link">
-        Lockbox
+      <a href="../provider/yandex-lockbox/" class="md-nav__link">
+        Yandex Lockbox
       </a>
     </li>
   
 
             
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_8">
-          Gitlab
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Gitlab" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_8">
-          <span class="md-nav__icon md-icon"></span>
-          Gitlab
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -953,46 +1339,13 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-gitlab-project-variables/" class="md-nav__link">
-        Gitlab Project Variables
+      <a href="../provider/gitlab-variables/" class="md-nav__link">
+        Gitlab Variables
       </a>
     </li>
   
 
             
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_9">
-          Oracle
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Oracle" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_9">
-          <span class="md-nav__icon md-icon"></span>
-          Oracle
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -1000,7 +1353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-oracle-vault/" class="md-nav__link">
+      <a href="../provider/oracle-vault/" class="md-nav__link">
         Oracle Vault
       </a>
     </li>
@@ -1008,67 +1361,27 @@
 
             
           
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_10">
-          1Password
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="1Password" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_10">
-          <span class="md-nav__icon md-icon"></span>
-          1Password
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
             
               
   
   
   
     <li class="md-nav__item">
-      <a href="../provider-1password-automation/" class="md-nav__link">
-        Secrets Automation
+      <a href="../provider/1password-automation/" class="md-nav__link">
+        1Password Secrets Automation
       </a>
     </li>
   
 
             
           
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
             
               
   
   
   
     <li class="md-nav__item">
-      <a href="../provider-webhook/" class="md-nav__link">
+      <a href="../provider/webhook/" class="md-nav__link">
         Webhook
       </a>
     </li>
@@ -1082,7 +1395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-fake/" class="md-nav__link">
+      <a href="../provider/fake/" class="md-nav__link">
         Fake
       </a>
     </li>
@@ -1096,7 +1409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-kubernetes/" class="md-nav__link">
+      <a href="../provider/kubernetes/" class="md-nav__link">
         Kubernetes
       </a>
     </li>
@@ -1109,26 +1422,14 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_14" type="checkbox" id="__nav_5_14" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5_14">
-          senhasegura
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="senhasegura" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_14">
-          <span class="md-nav__icon md-icon"></span>
-          senhasegura
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+    <li class="md-nav__item">
+      <a href="../provider/senhasegura-dsm/" class="md-nav__link">
+        senhasegura DevOps Secrets Management (DSM)
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -1136,8 +1437,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../provider-senhasegura-dsm/" class="md-nav__link">
-        DevOps Secrets Management (DSM)
+      <a href="../provider/doppler/" class="md-nav__link">
+        Doppler
       </a>
     </li>
   
@@ -1149,13 +1450,6 @@
     </li>
   
 
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
     
       
       
@@ -1168,18 +1462,26 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" data-md-state="indeterminate" type="checkbox" id="__nav_5" checked>
       
       
       
+        
+          
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_6">
+      
+        <label class="md-nav__link" for="__nav_5">
           Examples
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Examples" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Examples
         </label>
@@ -1191,7 +1493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples-gitops-using-fluxcd/" class="md-nav__link">
+      <a href="../examples/gitops-using-fluxcd/" class="md-nav__link">
         FluxCD
       </a>
     </li>
@@ -1205,7 +1507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples-anchore-engine-credentials/" class="md-nav__link">
+      <a href="../examples/anchore-engine-credentials/" class="md-nav__link">
         Anchore Engine
       </a>
     </li>
@@ -1219,7 +1521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../examples-jenkins-kubernetes-credentials/" class="md-nav__link">
+      <a href="../examples/jenkins-kubernetes-credentials/" class="md-nav__link">
         Jenkins
       </a>
     </li>
@@ -1246,18 +1548,175 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
       
       
       
+        
+          
+        
+          
+        
       
-        <label class="md-nav__link" for="__nav_7">
+      
+        <label class="md-nav__link" for="__nav_6">
+          Community
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Community" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Community
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" data-md-state="indeterminate" type="checkbox" id="__nav_6_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6_1">
+          Contributing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Contributing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_1">
+          <span class="md-nav__icon md-icon"></span>
+          Contributing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/devguide/" class="md-nav__link">
+        Developer guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/process/" class="md-nav__link">
+        Contributing Process
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/release/" class="md-nav__link">
+        Release Process
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/coc/" class="md-nav__link">
+        Code of Conduct
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/roadmap/" class="md-nav__link">
+        Roadmap
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_2" type="checkbox" id="__nav_6_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6_2">
           External Resources
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="External Resources" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+      <nav class="md-nav" aria-label="External Resources" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_2">
           <span class="md-nav__icon md-icon"></span>
           External Resources
         </label>
@@ -1386,201 +1845,10 @@
     </li>
   
 
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_8">
-          References
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="References" data-md-level="1">
-        <label class="md-nav__title" for="__nav_8">
-          <span class="md-nav__icon md-icon"></span>
-          References
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../spec/" class="md-nav__link">
-        API specification
-      </a>
-    </li>
-  
-
             
           
         </ul>
       </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_9">
-          Contributing
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Contributing" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
-          <span class="md-nav__icon md-icon"></span>
-          Contributing
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../contributing-devguide/" class="md-nav__link">
-        Developer guide
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../contributing-process/" class="md-nav__link">
-        Contributing Process
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../contributing-release/" class="md-nav__link">
-        Release Process
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../contributing-coc/" class="md-nav__link">
-        Code of Conduct
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../roadmap/" class="md-nav__link">
-        Roadmap
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
-        FAQ
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../stability-support/" class="md-nav__link">
-        Stability and Support
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../deprecation-policy/" class="md-nav__link">
-        Deprecation Policy
-      </a>
     </li>
   
 
@@ -1665,7 +1933,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/external-secrets/external-secrets/edit/master/docs/eso-demos.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/external-secrets/external-secrets/edit/main/docs/eso-demos.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
@@ -1683,7 +1951,7 @@
 <p><a href="https://www.youtube.com/watch?v=L6tn1YdMkF8"><img alt="GCP SM + AWS SM + Azure Key Vault Demo" src="https://img.youtube.com/vi/L6tn1YdMkF8/0.jpg" /></a></p>
 <h2 id="how-to-manage-secrets-in-openshift-using-vault-and-external-secrets-operator">How to manage secrets in OpenShift using Vault and External Secrets Operator</h2>
 <p>Balkrishna Pandey shows us here how to use ClusterSecretStore and how to integrate ESO with Hashicorp Vault on Openshift.</p>
-<p><a href="https://www.youtube.com/watch?v=PgiXKBTel1E"><img alt="How to manage secrets in OpenShift using Vault and External Secrets Operator" src="https://img.youtube.com/vi/PgiXKBTel1E/0.jpg" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=N7njTq6TSx8"><img alt="How to manage secrets in OpenShift using Vault and External Secrets Operator" src="https://img.youtube.com/vi/N7njTq6TSx8/0.jpg" /></a></p>
 <h2 id="managing-sensitive-data-in-kubernetes-with-sealed-secrets-and-external-secrets-operator-eso">Managing Sensitive Data in Kubernetes with Sealed Secrets and External Secrets Operator (ESO)</h2>
 <p>Lukonde Mwila demonstrates how ESO works and how to fetch secrets from AWS Secrets Manager into your Kubernetes cluster.</p>
 <p><a href="https://www.youtube.com/watch?v=FD8zzHPbhoY"><img alt="Managing Sensitive Data in Kubernetes with Sealed Secrets and External Secrets Operator (ESO)" src="https://img.youtube.com/vi/FD8zzHPbhoY/0.jpg" /></a></p>
@@ -1739,6 +2007,14 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      &copy; 2022 The external-secrets Authors.<br/>
+&copy; 2022 The Linux Foundation. All rights reserved.<br/><br/>
+The Linux Foundation has registered trademarks and uses trademarks.<br/>
+For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage page</a>.
+
+    </div>
+  
   
     Made with
     <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
@@ -1755,7 +2031,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.092fa1f6.min.js", "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.expand"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.092fa1f6.min.js", "version": {"provider": "mike"}}</script>
     
     
       <script src="../assets/javascripts/bundle.e3b2bf44.min.js"></script>
